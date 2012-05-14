@@ -1,15 +1,31 @@
 #container
 {
 	margin: 0 30px;
+<<<<<<< HEAD
 	background: #7FC6BC;
+=======
+	background: #fff;
+	cursor:pointer;
+	background-color:grey;
+>>>>>>> 4e295b2a18ace06ef4e7223394973e4a426d2966
 }
 
 #header
 {
+<<<<<<< HEAD
 	background: #046380;
 	padding: 20px;
 	text-decoration:blink;
 }
+=======
+	color:grey;
+	background:black;
+	padding: 20px;
+	text-decoration:blink;
+	text-align:center;
+	font-size:xx-large;
+}	font-style:italic;
+>>>>>>> 4e295b2a18ace06ef4e7223394973e4a426d2966
 
 #header h1 { margin: 0; }
 
@@ -59,17 +75,22 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color:black;
+	color:white;
 }
 
 #edito h2
 {
-	color: #000;
+	color:white;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	font-style:oblique;
+	background-color:black;
 }
 
 #news
-{	
+{	background-color:white;
+	color: #356;
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -87,10 +108,16 @@
 }
 
 #footer
-{
+{	color:white;
+	font-size:x-small;
 	clear: both;
+<<<<<<< HEAD
 	background:#046380;
 	text-align: middle;
+=======
+	background: black;
+	text-align: right;
+>>>>>>> 4e295b2a18ace06ef4e7223394973e4a426d2966
 	padding: 20px;
 	height: 1%;
 }
